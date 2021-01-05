@@ -1,0 +1,252 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">  
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+<link href="music_player.css" rel="stylesheet">
+<link href="music_player_responsive.css" rel="stylesheet">
+       <title> 
+          Music studio A
+        </title> 
+      
+</head>
+<body>
+ 
+
+  <div id="div1">
+    <img src="https://www.flaticon.com/svg/static/icons/svg/1784/1784381.svg" id="logo">
+    <h2 id="logo_title">Milli's Music Player</h2>
+<input type="text" id="search" size="8" value="Find Music" >   
+    <img src="https://www.flaticon.com/svg/static/icons/svg/149/149852.svg" id="search_logo">  
+   </div>
+ </div>
+
+
+
+  <div id="div4">
+  <div>  <img id="current_logo" src="https://www.flaticon.com/svg/static/icons/svg/27/27112.svg"> </div>
+ <div>
+<h2 id="current_logo_title">Currently Playing</h2>
+  </div>
+    
+    <div id="currently_playing_details">
+      <div>
+      	  <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGS8DEkG53r-Q/profile-displayphoto-shrink_200_200/0/1599425074752?e=1614211200&v=beta&t=U-PMoog614MntdzCfVgYFrkuxVy8rDOEXe29mav_4OI" id="current_img"> 
+      </div>
+      <p id="curr_name">No Song</p>
+      <p id="artist_name">No Artist</p>
+    </div>
+    
+  </div>
+ <div id="div2">
+ <fieldset id="queue_fieldset"> <legend> Queue </legend>
+  <table id="queue">
+   </table>
+   
+   <!--box shadow here-->
+  </fieldset>
+
+</div> 
+
+<div id="div3" class="carousel">
+  <h3> <span class="t_of_top"> T O P</span> Charts </h3>
+  <hr>
+  <a href="single_artist_page.html">
+  <img src="https://images.genius.com/e352ab3f51f95c6196073ae84959529f.1000x1000x1.jpg">
+    <img src="https://i.redd.it/tyy4rh90q3031.jpg">
+    <img src="https://i.pinimg.com/736x/ea/1f/64/ea1f64668a0af149a3277db9e9e54824.jpg">
+  </a>
+</div>
+
+
+<div id="div5" class="scrolling-wrapper">
+  <div class="artists_div">
+  <img class="artists" onclick= "chooseartist('chainsmoker_songs')" src="artist_images/chainsmokers.jpg" >
+  <div class="centered">ChainSmokers</div>
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">  
+  <img class="artists" onclick= "chooseartist('coldpla_songs')" src="artist_images/coldplay.jpg" >
+  <div class="centered">ColdPlay</div>
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">
+  <img class="artists" onclick= "chooseartist('neffe_songs')" src="artist_images/neffex.jpg">
+  <div class="centered">NeffeX</div>
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">  
+  <img class="artists" onclick= "chooseartist('e_songs')" src="artist_images/ed.jpg">
+  <div class="centered">Ed Sheeren</div>    
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">  
+  <img class="artists" onclick= "chooseartist('arian_songs')" src="artist_images/ariana.jpg">
+  <div class="centered">Ariana Grande</div>
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">    
+   <img class="artists" onclick= "chooseartist('ann_songs')" src="artist_images/anne.jpg">
+  <div class="centered">Anne Marie</div>
+  </div>
+
+  <div class="gap_div"></div>
+  
+  <div class="gap_div" id="big_gap" style="width: 9%; height: 50%; float: left;"></div>
+
+  <div class="artists_div">  
+  <img class="artists" onclick= "chooseartist('camil_songs')" src="artist_images/camila.jpg">
+  <div class="centered">Camila Cabello</div>
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">  
+  <img class="artists" onclick= "chooseartist('elli_songs')" src="artist_images/ellie.jpg">
+  <div class="centered">Ellie Goulding</div>
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">    
+   <img class="artists" onclick= "chooseartist('emine_songs')" src="artist_images/eminem.jpg">
+  <div class="centered">Eminem</div>
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">  
+  <img class="artists" onclick= "chooseartist('mi_songs')" src="artist_images/mix.jpg">
+  <div class="centered">Mix</div>
+  </div> 
+
+  <p id="testing"> </p>
+  <p id="testing2"> </p>
+  </div>
+
+
+<div id="div6" > 
+  <div class="genres">
+    <div class="genre_titles">Classical</div>
+    <div class="genre_images">
+    	<img src="genre_images/classical.jpg">
+    </div>
+  </div>
+  <div class="genres">
+    <div class="genre_titles">Chill</div>
+    <div class="genre_images">
+    	<img src="genre_images/chill.jpg">
+    </div>
+  </div>
+  <div class="genres">
+    <div class="genre_titles">Rock</div>
+    <div class="genre_images">
+    	<img src="genre_images/rock.jpg">
+    </div>
+  </div>
+  <div class="genres">
+    <div class="genre_titles">Love</div>
+    <div class="genre_images">
+    	<img src="genre_images/love.jpg">
+    </div>
+  </div>
+  <div class="genres">
+    <div class="genre_titles">Pop</div>
+    <div class="genre_images">
+    	<img src="genre_images/pop.jpg">
+    </div>
+  </div>
+  <div class="genres">
+    <div class="genre_titles">Trance</div>
+    <div class="genre_images">
+    	<img src="genre_images/trance.jpg">
+    </div>
+  </div>
+  <div class="genres">
+    <div class="genre_titles">Electronic</div>
+    <div class="genre_images">
+    	<img src="genre_images/electronic.jpg">
+    </div>
+  </div>
+  <div class="genres">
+    <div class="genre_titles">Retro</div>
+    <div class="genre_images">
+    	<img src="genre_images/retro.jpg">
+    </div>
+  </div>  
+  
+  </div>
+<div id="div7_player" class="footer" >
+  
+  <div class="buttons">
+            <i class="material-icons repeat active" onclick="handleRepeat()">repeat</i>
+            <i class="material-icons favorite" onclick="handleFavorite()">favorite</i>
+            <i class="material-icons volume active" onclick="handleVolume()">volume_up</i>
+  </div>
+  
+  <div class="music_player" id="music_player">
+    <div class="controls">
+               <span class="material-icons" onclick="prev_song()" id="change">fast_rewind</span>
+                <span class="play" onclick="handlePlay()">
+                <i class="material-icons">play_arrow</i>
+                </span>
+               <span class="material-icons" onclick="next_song()" id="change">fast_forward</span>
+           </div>
+
+    <div class="seek">
+    <span class="current-time">0:0</span>      
+    <input type="range" step="1" class="seekbar" value="0" min="0" max="100" oninput="handleSeekBar()">
+            <audio id="music-element" class="music-element">
+                <source src="" type="audio/mp3">
+            </audio>
+                
+    <span class="duration"> 0:0</span>
+  </div>
+</div> 
+  <div class="volumes"> 
+    <div class="volume_controls">
+           Volume
+           </div>       
+            <div class="volume_seek">           
+            <input type="range" step="1" value="50" min="0" max="100"
+                oninput="music.volume = this.value/100">
+                </div>
+  </div>
+</div>
+
+<script src="music_collection.js"></script>
+<script src="music_player.js"> </script>
+</body>
+</html>
+
+<!--
+<svg height=100vh width="500">
+  <ellipse cx="50" cy="400" rx=15vw ry=90vh style="fill:#f5e0e5;stroke:#ec008c;stroke-width:2" />
+#fc6767
+#8800ff
+#7700aa
+#ec008c
+#ff9b9c
+#3bc8e7
+-->
+<!--
+ <a href="google.com"> <text x="20" y="20" font-family="sans-serif" font-size="20px" fill="white">I am div 4</text> </a>
+</svg>
+-->
+
+

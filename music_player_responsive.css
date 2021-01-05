@@ -1,0 +1,355 @@
+@media screen and (max-width:480px)
+{
+               
+#div1 {
+    position: relative;
+    border-radius: 0px;
+    height: 10vh;
+}
+#logo{
+    height:30px;
+}       
+#logo_title{
+    margin-top:20px;
+}
+#search{         
+    margin-top:20px;
+    float: right;
+    margin-right:10px;
+    width: 70px;
+}        
+#search_logo{
+    height:15px;
+    margin-top:20px;
+    float: right;
+    margin-right:5px;
+}
+
+#div4{
+position: relative;    
+height: 70vh;
+width: 35%;
+border-style:none;
+border-radius:0;
+float:left;
+}   
+#current_logo{
+width:50%;
+}
+#current_img{
+width:60%;        
+}
+#curr_name ,#artist_name{
+  font-size:120%;
+}
+
+
+#div2{ 
+height: 68vh;
+width: 64%;
+float: right;
+}
+#queue_name{
+font-size:90%;
+}
+
+
+#div3{
+height:230px;
+margin-top:75vh;
+width:90%;
+border-style: dotted;
+border: 1px dotted #ec008c;
+}
+    
+#div3 h3{
+display: block;
+width: 100%;
+}        
+
+
+#div5{  
+margin-top: 70px; 
+height:150px;
+margin-left:0;
+margin-right:0;
+width:100%;
+display: flex;
+flex-wrap: nowrap;
+overflow-x: scroll;
+overflow-y: hidden;
+border-top-style: double;
+border-color: #ec008c;
+}
+
+#big_gap{
+display: none;
+}
+
+.artists_div{
+flex: 0 0 auto;
+width:30%;
+height:98%;
+margin-left: 4px;
+}
+
+.artists{
+  opacity: 0.6;
+}
+
+.centered {
+position: absolute;
+top: 70%;
+left: 50%;
+font-size: 90%;
+color: #ec008c;
+}
+
+
+#div6{    
+border-radius:7px;
+height:170px;
+float:left;   
+margin-bottom:100px;  
+width:100%;
+display: flex;
+flex-wrap: nowrap;
+overflow-x: scroll;
+overflow-y: hidden;
+padding: 0px;         
+}
+
+.genres{
+flex: 0 0 auto;   
+width:27%;
+height: 95%;
+}
+
+#div7{
+ padding: 0px;
+}   
+
+.buttons{
+float:left;
+margin-left:-10px;
+width:2%;
+display: inline;     
+}
+
+.buttons i {
+margin-top:0px;    
+font-size: 16px;
+margin-right: 0px;
+margin-left: -5px;
+}
+
+.music_player{
+margin-left: 9px;
+width:70%;
+}
+.controls{
+margin-left: 35%;
+}
+.seek{
+      margin-top: 0px;
+      margin-left: 1%;
+      width: 100%;
+}
+.seek input[type="range"] {   
+      margin: 0 5px;
+      height: 5px;
+      width: 70%;
+      outline:none;
+}
+.current-time{
+    margin-left: 10px;
+}
+
+.volume_controls{
+    margin-left: 1%;
+    font-size: 14px;
+     height: 18px;
+    } 
+
+.volume_seek input{
+      margin-left: 25px;
+      margin-right: auto;
+      height: 5px;
+      width: 100%;
+      transform: rotate(270deg); 
+} 
+
+    .volume_seek{
+      margin-top: 10px;
+      margin-left: 3%;
+      width: 100%;
+    }     
+  
+         
+         
+         #change{
+            height:25px;
+         }
+
+         .play, .pause, #change{
+          cursor:pointer;         
+         }         
+
+
+
+
+/*media queries
+@media screen and (max-width:1100px){
+    .artists_div{
+        width: 30%;
+        margin: 1rem;
+        height: 50%;
+    }
+    .genre_images{
+        height: 50%;
+        margin-top: 1rem;
+    }
+    .genre_images img{
+        border-radius: 8px;
+        width: 100%;
+    }
+    .genre_titles:hover{
+        cursor: pointer;
+        text-align: center;
+        border-bottom: 2px solid darkgray;
+        animation-name: border-title;
+        animation-duration: 0.9s;
+    }
+    @keyframes border-title{
+        from {
+        width: 20%;
+     }
+    to{
+      width: 70%;
+    }
+    }    
+}    
+
+
+@media screen and (max-width:959px){
+    #div1{
+        border-radius: 0;
+    }
+    #logo{
+        height: 40px;
+    }
+    #logo_title{
+        margin-top:28px;
+    }
+    #search{
+        margin-top:30px;
+        margin-right: 20px;
+    }
+    #search_logo{
+     margin-top: 30px;
+    }
+    #div4{
+        width: 30%;
+        height: 90vh;
+        border-radius: 0;
+    }
+    #div3{
+         height:250px;
+         border-style:solid;
+         border-color:#ec008c;
+    }
+    #div2{
+        width: 60%;
+    }
+    #div3{
+        border: 1px dotted #ec008c;
+        margin-top: 50rem;
+        padding: .5rem;
+        width: 80%;
+    }
+    #div5{
+        height: 16rem;
+        width: 70%;
+    }
+    #div5 img{
+        padding:0 1rem 1rem 1rem;
+    }
+    .centered{
+        text-align: center;
+        font-weight: 600;
+        font-size: .8rem;
+        margin: 2rem;
+    }
+    .artists_div{
+        width: 38%;
+        margin: 1rem;
+        height: 60%;
+    }
+    #div6{
+        display: block;
+        width: 100%;
+        height: 120px;
+        border-radius: 0;
+        overflow-x: scroll;
+        transform-origin: right top;
+    }
+  .genres{
+    float: left;
+    width: 22%;
+    display: inline-block;
+
+  }
+
+
+
+    #div7_player{
+        height: 56px;
+        border: 0;
+        width: 100%;
+        //background-color: transparent;
+        margin: 0;
+    }
+
+    .buttons{
+        display: none;
+    }
+
+    .volumes{
+        width: 25%;
+        height: 100%;
+        font-size: .8rem;
+        border-style:solid;
+        border-color:#ec008c;
+    }
+    .volumes input[type="range"]{
+        height: 3px;
+        width: 90%;
+        margin-top: none;
+        padding: none;
+    }
+    .music_player{
+        width: 70%;
+        border: 0;
+    }
+    .music_player input[type="range"]{
+        width: 80%;
+        height: 3px;
+        margin-top: none;
+        padding-bottom: 5px;
+    }
+
+    .seek{
+      margin-top: none;
+      margin-left: 4%;
+      width: 100%;
+      padding-bottom: 5px;
+    }
+    .controls{
+     margin-left: 40%;
+     margin-top: 2px;
+     padding: none;
+    }   
+}
+
+
+*/
