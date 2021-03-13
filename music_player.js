@@ -78,3 +78,52 @@ function chooseartist(artist_name_from_above) {
     clean_queue_part2();
   }
 }
+
+music.volume = 0.5;
+
+function next_song() {
+  if (currently_playing + 1 == songs.length) currently_playing = 0;
+  else currently_playing++;
+  document.getElementById("curr_name").innerHTML =
+    songs[currently_playing].songName;
+  document.getElementById("artist_name").innerHTML =
+    songs[currently_playing].artistName;
+  document
+    .getElementById("current_img")
+    .setAttribute("src", songs[currently_playing].img);
+  document
+    .getElementById("music-element")
+    .setAttribute("src", songs[currently_playing].song);
+  handlePlay();
+}
+
+function prev_song() {
+  if (currently_playing == 0) currently_playing = songs.length - 1;
+  else currently_playing--;
+  document.getElementById("curr_name").innerHTML =
+    songs[currently_playing].songName;
+  document.getElementById("artist_name").innerHTML =
+    songs[currently_playing].artistName;
+  document
+    .getElementById("current_img")
+    .setAttribute("src", songs[currently_playing].img);
+  document
+    .getElementById("music-element")
+    .setAttribute("src", songs[currently_playing].song);
+  handlePlay();
+}
+
+function handlequeue(curr) {
+  currently_playing = curr;
+  currently_playing++;
+  prev_song();
+}
+
+function changecolor() {
+  document.getElementById("testing2").innerHTML = currently_playing;
+  var rows = document.getElementById("queue").children;
+  for (i = 0; i < rows.length; i++) {
+    rows[i].style.boxShadow = "none";
+  }
+  rows[currently_playing].style.boxShadow = "5px 5px 5px #ec008c";
+}
