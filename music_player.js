@@ -127,3 +127,54 @@ function changecolor() {
   }
   rows[currently_playing].style.boxShadow = "5px 5px 5px #ec008c";
 }
+
+function handlePlay() {
+  document.getElementById("curr_name").innerHTML =
+    songs[currently_playing].songName;
+  document.getElementById("artist_name").innerHTML =
+    songs[currently_playing].artistName;
+  document
+    .getElementById("current_img")
+    .setAttribute("src", songs[currently_playing].img);
+  if (music.paused) {
+    music.play();
+    playBtn.className = "pause";
+    playBtn.innerHTML = '<i class="material-icons">pause</i>';
+  } else {
+    music.pause();
+    playBtn.className = "play";
+    playBtn.innerHTML = '<i class="material-icons">play_arrow</i>';
+  }
+  music.addEventListener("ended", function () {
+    music.pause();
+    playBtn.className = "play";
+    playBtn.innerHTML = '<i class="material-icons">play_arrow</i>';
+    music.currentTime = 0;
+    handlePlay();
+  });
+  document.getElementById("testing").innerHTML = currently_playing;
+
+  changecolor();
+}
+
+music.onloadeddata = function () {
+  seekbar.max = music.duration;
+  var ds = parseInt(music.duration % 60);
+  var dm = parseInt((music.duration / 60) % 60);
+  duration.innerHTML = dm + ":" + ds;
+};
+music.ontimeupdate = function () {
+  seekbar.value = music.currentTime;
+};
+handleSeekBar = function () {
+  music.currentTime = seekbar.value;
+};
+music.addEventListener(
+  "timeupdate",
+  function () {
+    var cs = parseInt(music.currentTime % 60);
+    var cm = parseInt((music.currentTime / 60) % 60);
+    currentTime.innerHTML = cm + ":" + cs;
+  },
+  false
+);
