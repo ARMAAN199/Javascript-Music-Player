@@ -178,3 +178,32 @@ music.addEventListener(
   },
   false
 );
+
+function write_queue() {
+  queue_list = document.getElementById("queue");
+  for (i = 0; i < songs.length; i++) {
+    var tr = document.createElement("tr");
+    tr.setAttribute("id", "tr");
+
+    var td_img_box = document.createElement("td");
+    var td_img = document.createElement("img");
+    td_img.setAttribute("id", "queue_img");
+    td_img.setAttribute("src", songs[i].img);
+    td_img_box.appendChild(td_img);
+    tr.appendChild(td_img_box);
+
+    var td_name_box = document.createElement("td");
+    var td_name = document.createElement("button");
+    td_name.setAttribute("id", "queue_name");
+    td_name.innerHTML = songs[i].songName;
+    td_name.setAttribute("onClick", 'handlequeue( " ' + i + ' " )');
+    td_name_box.appendChild(td_name);
+    tr.appendChild(td_name_box);
+
+    queue_list.appendChild(tr);
+  }
+}
+
+document
+  .getElementById("music-element")
+  .setAttribute("src", songs[currently_playing].song);
