@@ -1,0 +1,96 @@
+var chainsmokers_songs = [
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "New york city",
+    song: "http://docs.google.com/uc?export=open&id=16pDWpPKvmW7y8rIlaanzDogdlSfMfY-w",
+    color: "false",
+  },
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "Paris",
+    song: "http://docs.google.com/uc?export=open&id=1LzowRvH-sc_Q1UbXaSwtDVVVkFAzNvDV",
+    color: "false",
+  },
+
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "Girlfriend",
+    song: "http://docs.google.com/uc?export=open&id=1NzMxV2sy8ouj0KOmybl1hlkRUoWNob4s",
+    color: "false",
+  },
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "Don't let me down",
+    song: "http://docs.google.com/uc?export=open&id=1PQ7IhlAiDnyjwBChI5zH0QTvJab9ncrW",
+    color: "false",
+  },
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "Selfie",
+    song: "http://docs.google.com/uc?export=open&id=1QOHZQSbhSuFJh-s_sCvVt5zsquDlw2aU",
+    color: "false",
+  },
+
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "Inside out",
+    song: "http://docs.google.com/uc?export=open&id=1VSMqWZay3HZE7OYlIXDMQAVe96bsVUNx",
+    color: "false",
+  },
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "Water bed",
+    song: "http://docs.google.com/uc?export=open&id=1Ww15U00PKh48i_jTzKXXWASqtH5b0U5L",
+    color: "false",
+  },
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "Roses",
+    song: "http://docs.google.com/uc?export=open&id=1fnWcxaLn_iV-QTN9QTTQt1MPpJ-H4A3z",
+    color: "false",
+  },
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "Let you go",
+    song: "http://docs.google.com/uc?export=open&id=1h45lNRf4UEvTsaJxPdPlIQvY4PaENUtD",
+    color: "false",
+  },
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "All we know",
+    song: "http://docs.google.com/uc?export=open&id=1lGdRzulAY_vSiSBC9O_1NVjQX663dZUg",
+    color: "false",
+  },
+
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "Closer",
+    song: "http://docs.google.com/uc?export=open&id=1puDgMg6NtU6UXY7i_K1HetVy6KOOEqza",
+    color: "false",
+  },
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "Kenye",
+    song: "http://docs.google.com/uc?export=open&id=1vclLv-GdhVYqkQ3yktAu9RRXk68UlQrh",
+    color: "false",
+  },
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "The rookie",
+    song: "http://docs.google.com/uc?export=open&id=1xvQcsBve2P1oCHI6r2cLY5WgC--TLVJB",
+    color: "false",
+  },
+];
