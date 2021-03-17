@@ -94,3 +94,83 @@ var chainsmokers_songs = [
     color: "false",
   },
 ];
+
+var coldplay_songs = [
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "Viva La Vida",
+    song: "http://docs.google.com/uc?export=open&id=1jzdsLuAwGPSucPjevoRoLGO17u5pJYhU",
+    color: "false",
+  },
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "The Scientist",
+    song: "http://docs.google.com/uc?export=open&id=1J41XcEELXo4oDwpMEYT4x9MSEIniRdN-",
+    color: "false",
+  },
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "A Sky Full of Stars",
+    song: "http://docs.google.com/uc?export=open&id=15TJvOHj5JHXmMAYKmUsG9P15snU2eRYs",
+    color: "false",
+  },
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "Paradise",
+    song: "http://docs.google.com/uc?export=open&id=1dWxaTJhA32Sqy9xwhAUQZxg4qkTnX1zr",
+    color: "false",
+  },
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "Yellow",
+    song: "http://docs.google.com/uc?export=open&id=12plEZxJm4GXFzkBSEi0eTkjREw-c0b-k",
+    color: "false",
+  },
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "Hymn For The Weekend",
+    song: "http://docs.google.com/uc?export=open&id=1sDM1Ht6gSujIcNRz3Cmr-7jABsLhWIer",
+    color: "false",
+  },
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "Gravity",
+    song: "http://docs.google.com/uc?export=open&id=1HupL3Aq0mgSyZX-lSnigPYumf6i0RXi1",
+    color: "false",
+  },
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "O",
+    song: "http://docs.google.com/uc?export=open&id=1K7rtylYOjRr5QmBqy169Saqdhg9JukmU",
+    color: "false",
+  },
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "Everglow",
+    song: "http://docs.google.com/uc?export=open&id=1bP-tNkLnVCewijt7nr8gfAuZeqnP7Jzh",
+    color: "false",
+  },
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "Fix You",
+    song: "https://docs.google.com/uc?export=open&id=1bk0x9SjcOmeO9gzKLbWYjcUeU9KJ5HfW",
+    color: "false",
+  },
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "Talk",
+    song: "http://docs.google.com/uc?export=open&id=1DV-VGW7zamYoGpA2ll_hrg7NWPkNY-XT",
+    color: "false",
+  },
+];
