@@ -174,3 +174,220 @@ var coldplay_songs = [
     color: "false",
   },
 ];
+
+var neffex_songs = [
+  {
+    img: "https://i0.wp.com/infinitevolumemag.com/wp-content/uploads/2019/05/96b3c40c678a6d43cb7499f5c0510d2f.1000x1000x1.jpg?fit=1000%2C1000&ssl=1",
+    artistName: "Neffex",
+    songName: "Life",
+    song: "http://docs.google.com/uc?export=open&id=1A3AOGs8f6cgVPbknekukt6C3h4c5X2Pv",
+    color: "false",
+  },
+  {
+    img: "https://images.genius.com/e2fcbff7dd67be98116f529c69b2644d.1000x1000x1.jpg",
+    artistName: "Neffex",
+    songName: "Blow up",
+    song: "http://docs.google.com/uc?export=open&id=1ChinsiS6-zGmooy07xby3csURqMT5KYf",
+    color: "false",
+  },
+
+  {
+    img: "https://i0.wp.com/infinitevolumemag.com/wp-content/uploads/2019/05/96b3c40c678a6d43cb7499f5c0510d2f.1000x1000x1.jpg?fit=1000%2C1000&ssl=1",
+    artistName: "Neffex",
+    songName: "Crown",
+    song: "http://docs.google.com/uc?export=open&id=1LmJpRIvzKd5_UhmhDrYx0P8m5BKny5N5",
+    color: "false",
+  },
+  {
+    img: "https://images.genius.com/e2fcbff7dd67be98116f529c69b2644d.1000x1000x1.jpg",
+    artistName: "Neffex",
+    songName: "Grateful",
+    song: "http://docs.google.com/uc?export=open&id=1MJFxCnKY6heezaYBKlf572oazH3fuTsD",
+    color: "false",
+  },
+  {
+    img: "https://i0.wp.com/infinitevolumemag.com/wp-content/uploads/2019/05/96b3c40c678a6d43cb7499f5c0510d2f.1000x1000x1.jpg?fit=1000%2C1000&ssl=1",
+    artistName: "Neffex",
+    songName: "Fight back",
+    song: "http://docs.google.com/uc?export=open&id=1WIgld8XkEh8ekqhuNItuo_bC5awEvSZk",
+    color: "false",
+  },
+
+  {
+    img: "https://images.genius.com/e2fcbff7dd67be98116f529c69b2644d.1000x1000x1.jpg",
+    artistName: "Neffex",
+    songName: "Cold",
+    song: "http://docs.google.com/uc?export=open&id=1WqwQJi8aCcri180VbJbWyFHAhGWkIgr1",
+    color: "false",
+  },
+  {
+    img: "https://images.genius.com/e2fcbff7dd67be98116f529c69b2644d.1000x1000x1.jpg",
+    artistName: "Neffex",
+    songName: "Destiny",
+    song: "http://docs.google.com/uc?export=open&id=1aS0H0gCnynaHSNHjgCcO5gkKX2yyIxXX",
+    color: "false",
+  },
+  {
+    img: "https://i0.wp.com/infinitevolumemag.com/wp-content/uploads/2019/05/96b3c40c678a6d43cb7499f5c0510d2f.1000x1000x1.jpg?fit=1000%2C1000&ssl=1",
+    artistName: "Neffex",
+    songName: "Hope",
+    song: "http://docs.google.com/uc?export=open&id=1bUDsWrdQc7ygkRUui1MsZYfpoRLW24OH",
+    color: "false",
+  },
+  {
+    img: "https://images.genius.com/e2fcbff7dd67be98116f529c69b2644d.1000x1000x1.jpg",
+    artistName: "Neffex",
+    songName: "Chance",
+    song: "http://docs.google.com/uc?export=open&id=1jMx-VXOgOH2IohpXmb7a10DCoJSNRhXx",
+    color: "false",
+  },
+  {
+    img: "https://images.genius.com/e2fcbff7dd67be98116f529c69b2644d.1000x1000x1.jpg",
+    artistName: "Neffex",
+    songName: "Careless",
+    song: "http://docs.google.com/uc?export=open&id=1qYchr9T3JZpF6R0kYWQBG_umxTLfO4Vd",
+    color: "false",
+  },
+
+  {
+    img: "https://i0.wp.com/infinitevolumemag.com/wp-content/uploads/2019/05/96b3c40c678a6d43cb7499f5c0510d2f.1000x1000x1.jpg?fit=1000%2C1000&ssl=1",
+    artistName: "Neffex",
+    songName: "Dangerous",
+    song: "http://docs.google.com/uc?export=open&id=1tXFh8pAzq6hvYm4eh1WkeCsv4eclyaWG",
+    color: "false",
+  },
+  {
+    img: "https://images.genius.com/e2fcbff7dd67be98116f529c69b2644d.1000x1000x1.jpg",
+    artistName: "Neffex",
+    songName: "Best of me",
+    song: "http://docs.google.com/uc?export=open&id=1wgMyTxmLmFGw00jo8z1hyzJXW1Tx_SiF",
+    color: "false",
+  },
+];
+
+var ed_songs = [
+  {
+    img: "https://img.discogs.com/RnJJ_sbVzy_SQwFgWZ8WPq7wdS0=/600x720/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-2184482-1579346862-8600.jpeg.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Supermarket flowers",
+    song: "http://docs.google.com/uc?export=open&id=1QZT-YbZDPTez2ggurGZlInu6K4QPt8XK",
+    color: "false",
+  },
+
+  {
+    img: "https://img.discogs.com/RnJJ_sbVzy_SQwFgWZ8WPq7wdS0=/600x720/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-2184482-1579346862-8600.jpeg.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Barcelona",
+    song: "http://docs.google.com/uc?export=open&id=1ItSxeGUrzIada4sXk95cTUYhnMrRrf9R",
+    color: "false",
+  },
+  {
+    img: "https://www.rollingstone.com/wp-content/uploads/2018/06/ed-sheeran-cover-story-rolling-stone-interview-8e2ddd75-2223-4cad-ae6a-247b9f0d9e9b.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Perfect",
+    song: "http://docs.google.com/uc?export=open&id=1uxIXe7cXnbD4EipvwtH4TZhFQC0vLnCy",
+    color: "false",
+  },
+  {
+    img: "https://www.rollingstone.com/wp-content/uploads/2018/06/ed-sheeran-cover-story-rolling-stone-interview-8e2ddd75-2223-4cad-ae6a-247b9f0d9e9b.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Save myself",
+    song: "http://docs.google.com/uc?export=open&id=1kSwHLNQ5KGmhfVYPU3-nG88b96cCzWpt",
+    color: "false",
+  },
+
+  {
+    img: "https://img.discogs.com/RnJJ_sbVzy_SQwFgWZ8WPq7wdS0=/600x720/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-2184482-1579346862-8600.jpeg.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Nancy mulligan",
+    song: "http://docs.google.com/uc?export=open&id=1d79MHTfK8MczD1knEKw6LbYnSMHoYD5b",
+    color: "false",
+  },
+  {
+    img: "https://www.rollingstone.com/wp-content/uploads/2018/06/ed-sheeran-cover-story-rolling-stone-interview-8e2ddd75-2223-4cad-ae6a-247b9f0d9e9b.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Eraser",
+    song: "http://docs.google.com/uc?export=open&id=1d4-mG4YYpe4F3T0JluycwMz5cdGWONKc",
+    color: "false",
+  },
+  {
+    img: "https://img.discogs.com/RnJJ_sbVzy_SQwFgWZ8WPq7wdS0=/600x720/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-2184482-1579346862-8600.jpeg.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Photograph",
+    song: "http://docs.google.com/uc?export=open&id=11xBDsL2Gdp_s3jBIUKjz3qLKu5mg6enH",
+    color: "false",
+  },
+
+  {
+    img: "https://img.discogs.com/RnJJ_sbVzy_SQwFgWZ8WPq7wdS0=/600x720/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-2184482-1579346862-8600.jpeg.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Dive",
+    song: "http://docs.google.com/uc?export=open&id=1m6PjHgUruGhVyGD306TmxWh0nRxj0J41",
+    color: "false",
+  },
+  {
+    img: "https://m.media-amazon.com/images/I/B1TlPSY5bKS._SS500_.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Bibia bi ye ye",
+    song: "http://docs.google.com/uc?export=open&id=1OJfaUWs9BL4zei5tIA_jTQW9V8DzNQRM",
+    color: "false",
+  },
+  {
+    img: "https://img.discogs.com/RnJJ_sbVzy_SQwFgWZ8WPq7wdS0=/600x720/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-2184482-1579346862-8600.jpeg.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Shape of you",
+    song: "http://docs.google.com/uc?export=open&id=1lg_rCka2uTEAsXFGjeViizI2bpAQSlDC",
+    color: "false",
+  },
+
+  {
+    img: "https://m.media-amazon.com/images/I/B1TlPSY5bKS._SS500_.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Hearts dont break around here",
+    song: "http://docs.google.com/uc?export=open&id=1yIxb12tOeHxDr2MIrL3Oix4sYq4WVdEu",
+    color: "false",
+  },
+  {
+    img: "https://m.media-amazon.com/images/I/B1TlPSY5bKS._SS500_.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Galway girl",
+    song: "http://docs.google.com/uc?export=open&id=12BvFetwFlGguqPpLvNPyY0z-Yd1IZfaV",
+    color: "false",
+  },
+  {
+    img: "https://www.rollingstone.com/wp-content/uploads/2018/06/ed-sheeran-cover-story-rolling-stone-interview-8e2ddd75-2223-4cad-ae6a-247b9f0d9e9b.jpg",
+    artistName: "Ed Sheeran",
+    songName: "What do i know",
+    song: "http://docs.google.com/uc?export=open&id=176gLMhDxs6mfweu030NCo7kDAAE2MsRy",
+    color: "false",
+  },
+  {
+    img: "https://m.media-amazon.com/images/I/B1TlPSY5bKS._SS500_.jpg",
+    artistName: "Ed Sheeran",
+    songName: "How would you feel",
+    song: "http://docs.google.com/uc?export=open&id=1AV7TfYfbqKd5DKkaVPDATKtxNqkTy_x_",
+    color: "false",
+  },
+  {
+    img: "https://m.media-amazon.com/images/I/B1TlPSY5bKS._SS500_.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Happier",
+    song: "http://docs.google.com/uc?export=open&id=1czFu0r71wRY7icuiZfJIND_f3rvHnkzl",
+    color: "false",
+  },
+
+  {
+    img: "https://www.rollingstone.com/wp-content/uploads/2018/06/ed-sheeran-cover-story-rolling-stone-interview-8e2ddd75-2223-4cad-ae6a-247b9f0d9e9b.jpg",
+    artistName: "Ed Sheeran",
+    songName: "New man",
+    song: "http://docs.google.com/uc?export=open&id=1VYcntoKeWPbLDZapjEtIgg9Ga-PFFZuU",
+    color: "false",
+  },
+  {
+    img: "https://www.rollingstone.com/wp-content/uploads/2018/06/ed-sheeran-cover-story-rolling-stone-interview-8e2ddd75-2223-4cad-ae6a-247b9f0d9e9b.jpg",
+    artistName: "Ed Sheeran",
+    songName: "Castle on the hill",
+    song: "http://docs.google.com/uc?export=open&id=1afXpXHOt8rIKIheVmj-hIoQ5nf1Arw9x",
+    color: "false",
+  },
+];
