@@ -655,3 +655,76 @@ var camila_songs = [
     color: "false",
   },
 ];
+
+var ellie_songs = [
+  {
+    img: "https://i.guim.co.uk/img/media/59afa112361abd0310fa711ee450327213add50e/0_24_5184_3110/master/5184.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1409e373e34014a83c91e2ca80fabe48",
+    artistName: "Ellie Goulding",
+    songName: "Guuns and horses",
+    song: "http://docs.google.com/uc?export=open&id=1FEUrumAtpk7jwhp_mcnIbHktck2uyYNs",
+    color: "false",
+  },
+  {
+    img: "https://i.guim.co.uk/img/media/59afa112361abd0310fa711ee450327213add50e/0_24_5184_3110/master/5184.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1409e373e34014a83c91e2ca80fabe48",
+    artistName: "Ellie Goulding",
+    songName: "How long will i love you",
+    song: "http://docs.google.com/uc?export=open&id=1FfD00_huF3zxp4xzRohUBCo_PyADMdax",
+    color: "false",
+  },
+  {
+    img: "https://i.guim.co.uk/img/media/59afa112361abd0310fa711ee450327213add50e/0_24_5184_3110/master/5184.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1409e373e34014a83c91e2ca80fabe48",
+    artistName: "Ellie Goulding",
+    songName: "Burn",
+    song: "http://docs.google.com/uc?export=open&id=1FqjInSX_5S06TkWEt1xlBb6DkoisiZ0E",
+    color: "false",
+  },
+  {
+    img: "https://i.guim.co.uk/img/media/59afa112361abd0310fa711ee450327213add50e/0_24_5184_3110/master/5184.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1409e373e34014a83c91e2ca80fabe48",
+    artistName: "Ellie Goulding",
+    songName: "I know you  care",
+    song: "http://docs.google.com/uc?export=open&id=1RcU7CUFmhyJe3SWr-ozAkl0CMsp3UQv3",
+    color: "false",
+  },
+  {
+    img: "https://i.guim.co.uk/img/media/59afa112361abd0310fa711ee450327213add50e/0_24_5184_3110/master/5184.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1409e373e34014a83c91e2ca80fabe48",
+    artistName: "Ellie Goulding",
+    songName: "Love me like you do",
+    song: "http://docs.google.com/uc?export=open&id=1RcoQ1-ZQfYjXm3oab56bAAqGbRswpHpN",
+    color: "false",
+  },
+  {
+    img: "https://i.guim.co.uk/img/media/59afa112361abd0310fa711ee450327213add50e/0_24_5184_3110/master/5184.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1409e373e34014a83c91e2ca80fabe48",
+    artistName: "Ellie Goulding",
+    songName: "Explosions",
+    song: "http://docs.google.com/uc?export=open&id=1SQoSib5q_9Lzjld21CwgumoOjVm94qA2",
+    color: "false",
+  },
+  {
+    img: "https://i.guim.co.uk/img/media/59afa112361abd0310fa711ee450327213add50e/0_24_5184_3110/master/5184.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1409e373e34014a83c91e2ca80fabe48",
+    artistName: "Ellie Goulding",
+    songName: "Beating heart",
+    song: "http://docs.google.com/uc?export=open&id=1_Kyq-ZoRgC-xs8zSSsLpDPpIwHiVRkiE",
+    color: "false",
+  },
+  {
+    img: "https://i.guim.co.uk/img/media/59afa112361abd0310fa711ee450327213add50e/0_24_5184_3110/master/5184.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1409e373e34014a83c91e2ca80fabe48",
+    artistName: "Ellie Goulding",
+    songName: "Anything could happen",
+    song: "http://docs.google.com/uc?export=open&id=1g5etTR1zmDkhdOV6bvCkEwYUt7-Hsnvp",
+    color: "false",
+  },
+  {
+    img: "https://i.guim.co.uk/img/media/59afa112361abd0310fa711ee450327213add50e/0_24_5184_3110/master/5184.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1409e373e34014a83c91e2ca80fabe48",
+    artistName: "Ellie Goulding",
+    songName: "I need your love",
+    song: "http://docs.google.com/uc?export=open&id=1kzOhQ_iRRtwTQrv6DVjEugCMZHq_H0AH",
+    color: "false",
+  },
+  {
+    img: "https://i.guim.co.uk/img/media/59afa112361abd0310fa711ee450327213add50e/0_24_5184_3110/master/5184.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1409e373e34014a83c91e2ca80fabe48",
+    artistName: "Ellie Goulding",
+    songName: "Goodness gracious",
+    song: "http://docs.google.com/uc?export=open&id=1m31s7VgPND6e7Yiu33IJvU8KsC7tYFdn",
+    color: "false",
+  },
+];
