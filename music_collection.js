@@ -728,3 +728,154 @@ var ellie_songs = [
     color: "false",
   },
 ];
+
+var eminem_songs = [
+  {
+    img: "https://media.npr.org/assets/music/news/2010/06/eminem-52893634f7c035450a7b5ff2e040cacb4012395e-s800-c85.jpg",
+    artistName: "Eminem",
+    songName: "Not afraid",
+    song: "http://docs.google.com/uc?export=open&id=13t6dXxf6sjGI-6pgVoWYworTM8lWrTaM",
+    color: "false",
+  },
+
+  {
+    img: "https://media.npr.org/assets/music/news/2010/06/eminem-52893634f7c035450a7b5ff2e040cacb4012395e-s800-c85.jpg",
+    artistName: "Eminem",
+    songName: "Mocking bird",
+    song: "http://docs.google.com/uc?export=open&id=1N33-VMKXRVh_G7znr6WghrhBasxjSfMv",
+    color: "false",
+  },
+
+  {
+    img: "https://media.npr.org/assets/music/news/2010/06/eminem-52893634f7c035450a7b5ff2e040cacb4012395e-s800-c85.jpg",
+    artistName: "Eminem",
+    songName: "Cleanin' out my closet",
+    song: "http://docs.google.com/uc?export=open&id=1Rr12_Ms7Ea1pYUgsMP7ImJyM9y3xdBrp",
+    color: "false",
+  },
+
+  {
+    img: "https://media.npr.org/assets/music/news/2010/06/eminem-52893634f7c035450a7b5ff2e040cacb4012395e-s800-c85.jpg",
+    artistName: "Eminem",
+    songName: "We made you",
+    song: "http://docs.google.com/uc?export=open&id=1RztoXou8J5tQtyvUa6rrMRTuNseYiO1J",
+    color: "false",
+  },
+
+  {
+    img: "https://media.npr.org/assets/music/news/2010/06/eminem-52893634f7c035450a7b5ff2e040cacb4012395e-s800-c85.jpg",
+    artistName: "Eminem",
+    songName: "Sing for the moment",
+    song: "http://docs.google.com/uc?export=open&id=1S5d-zfCMc760AhhE-Ysk_I7mAlVvqI2x",
+    color: "false",
+  },
+
+  {
+    img: "https://media.npr.org/assets/music/news/2010/06/eminem-52893634f7c035450a7b5ff2e040cacb4012395e-s800-c85.jpg",
+    artistName: "Eminem",
+    songName: "Beautiful",
+    song: "http://docs.google.com/uc?export=open&id=1Sw-rAdmu-XcGO4P7oQ2Extutp_Z_8hFq",
+    color: "false",
+  },
+
+  {
+    img: "https://images.genius.com/a3e4758ff509535f2a8d1a41fdec99b7.1000x1000x1.png",
+    artistName: "Eminem",
+    songName: "Just lose it",
+    song: "http://docs.google.com/uc?export=open&id=1bhRtV6e2_l-jyXoYwIQu8y47aWetUfbX",
+    color: "false",
+  },
+
+  {
+    img: "https://images.genius.com/a3e4758ff509535f2a8d1a41fdec99b7.1000x1000x1.png",
+    artistName: "Eminem",
+    songName: "Without you",
+    song: "http://docs.google.com/uc?export=open&id=1gCB0KlTAs83O9C-OpBXS3A75k4OpzXfT",
+    color: "false",
+  },
+
+  {
+    img: "https://images.genius.com/a3e4758ff509535f2a8d1a41fdec99b7.1000x1000x1.png",
+    artistName: "Eminem",
+    songName: "Rap god",
+    song: "http://docs.google.com/uc?export=open&id=1i1vACw1myJSyUdlU6OPo7Jc06jTKRtqU",
+    color: "false",
+  },
+
+  {
+    img: "https://images.genius.com/a3e4758ff509535f2a8d1a41fdec99b7.1000x1000x1.png",
+    artistName: "Eminem",
+    songName: "Love the way lie",
+    song: "http://docs.google.com/uc?export=open&id=1jk3cyRCHpVA89KBJnqr2rnT668Jv3-CV",
+    color: "false",
+  },
+
+  {
+    img: "https://images.genius.com/a3e4758ff509535f2a8d1a41fdec99b7.1000x1000x1.png",
+    artistName: "Eminem",
+    songName: "Like toy soldiers",
+    song: "http://docs.google.com/uc?export=open&id=1kbFSBOa6duKYgQhw8zaDsWXPg5Sbxkq_",
+    color: "false",
+  },
+
+  {
+    img: "https://images.genius.com/a3e4758ff509535f2a8d1a41fdec99b7.1000x1000x1.png",
+    artistName: "Eminem",
+    songName: "When i'm gone",
+    song: "http://docs.google.com/uc?export=open&id=1oC5IcmzZKDtt1FxZKH-6hQNZytYQN_ok",
+    color: "false",
+  },
+
+  {
+    img: "https://images.genius.com/a3e4758ff509535f2a8d1a41fdec99b7.1000x1000x1.png",
+    artistName: "Eminem",
+    songName: "The real slip shady",
+    song: "http://docs.google.com/uc?export=open&id=1pQZ38xjT6xkLzLV_GBHCLHIFGcSZa7Tb",
+    color: "false",
+  },
+];
+
+var mix_songs = [
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "Viva La Vida",
+    song: "http://docs.google.com/uc?export=open&id=1jzdsLuAwGPSucPjevoRoLGO17u5pJYhU",
+    color: "false",
+  },
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "Paris",
+    song: "http://docs.google.com/uc?export=open&id=1LzowRvH-sc_Q1UbXaSwtDVVVkFAzNvDV",
+    color: "false",
+  },
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "Don't let me down",
+    song: "http://docs.google.com/uc?export=open&id=1PQ7IhlAiDnyjwBChI5zH0QTvJab9ncrW",
+    color: "false",
+  },
+  {
+    img: "https://www.maxim.com/.image/t_share/MTczODUwMzcxOTQ3NTA1NTA1/the-chainsmokers.jpg",
+    artistName: "ChainSmokers",
+    songName: "All we know",
+    song: "http://docs.google.com/uc?export=open&id=1lGdRzulAY_vSiSBC9O_1NVjQX663dZUg",
+    color: "false",
+  },
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwniJQKE6BirVS0nIpVjL3X_-ZRmWfK5cZiQ2BqHc3A=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "ColdPlay",
+    songName: "Hymn For The Weekend",
+    song: "http://docs.google.com/uc?export=open&id=1sDM1Ht6gSujIcNRz3Cmr-7jABsLhWIer",
+    color: "false",
+  },
+  {
+    img: "https://yt3.ggpht.com/ytc/AAUvwnjGKGFwM-O4dkJGLeAipUd0mEaF5_OlytAB4DnrOQ=s900-c-k-c0x00ffffff-no-rj",
+    artistName: "The Local Train",
+    songName: "Dil Mere",
+    song: "http://docs.google.com/uc?export=open&id=1hUgM6S5WDbq0x1hVLzeKbypuTMFhkIuJ",
+    color: "false",
+  },
+];
