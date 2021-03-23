@@ -1,0 +1,62 @@
+body {
+  background-color: #121212;
+}
+
+#div1 {
+  height: 80px;
+  width: 100%;
+  background: #ec008c;
+  background: linear-gradient(to right, #fc6767, #ec008c);
+  border-style: solid;
+  border-color: none;
+  border-radius: 100% 0% 100% 0% / 0% 49% 51% 100%;
+}
+#logo {
+  height: 50px;
+  padding: 15px;
+  float: left;
+}
+
+#logo_title {
+  font-family: "Tangerine", serif;
+  margin-top: 30px;
+  float: left;
+  text-shadow: 1.5px 1.5px orange;
+}
+#search {
+  float: right;
+  margin-top: 25px;
+  margin-right: 100px;
+  border: none;
+  border-bottom: 2px solid #000;
+  background-color: transparent;
+  outline: none;
+}
+
+#search:focus {
+  border-bottom: 2px solid #fff;
+}
+
+#search_logo {
+  height: 20px;
+  margin-top: 25px;
+  margin-right: 15px;
+  float: right;
+}
+
+#div2 {
+  height: 100vh;
+  width: 20%;
+  background-color: none;
+  float: right;
+  color: white;
+}
+
+#queue {
+  color: white;
+}
+
+#queue_img {
+  width: 50px;
+  padding-top: 10px;
+}
