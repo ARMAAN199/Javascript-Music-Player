@@ -161,3 +161,105 @@ body {
   color: #fff;
   width: 48%;
 }
+
+/* carousel */
+.carousel {
+  flex-direction: row;
+  justify-content: space-around;
+}
+/* general properties for images in the carousel */
+.carousel img {
+  height: 60%;
+  width: 30%;
+  border-radius: 10px;
+  transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+}
+/* first image in the carousel */
+/* if you see it direction wise, then it is the third image in the carousel */
+.carousel img:nth-child(1) {
+  z-index: 2;
+}
+/* image which is in the maddle of the carousel */
+.carousel img:nth-child(2) {
+  z-index: 3;
+}
+/* third image in the carousel */
+/* if you see it direction wise, then it is the first image in the carousel */
+.carousel img:nth-child(3) {
+  z-index: 1;
+}
+
+/* animations for carousel */
+
+.carousel img:hover {
+  z-index: 4;
+  box-shadow: 2px 2px 12px 2px hotpink;
+  width: 35%;
+}
+.t_of_top {
+  color: #ec008c;
+  text-shadow: 0 2px 5px #fc6767;
+}
+
+hr {
+  border: none;
+  height: 20px;
+  width: 90%;
+  height: 50px;
+  margin-top: 0;
+  border-bottom: 2px solid white;
+  box-shadow: 6px 2px 2px 1px #ec008c;
+  margin: -50px auto 10px;
+}
+
+#div3 h3 {
+  font-family: "Allerta Stencil", Sans-serif;
+  text-align: center;
+}
+
+#div5 {
+  height: 300px;
+  background-color: none;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  width: 55%;
+  border-radius: 5px;
+}
+
+#div5 img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.artists:hover {
+  opacity: 0.3;
+}
+
+.artists_div {
+  width: 15%;
+  height: 48%;
+  position: relative;
+  text-align: center;
+  float: left;
+}
+
+.centered {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90%;
+  color: #ec008c;
+  //color: #66FF66;
+  font-family: "Langar", cursive;
+  //font-family: 'Raleway', sans-serif;
+}
+
+.gap_div {
+  width: 1%;
+  height: 50%;
+  float: left;
+}
