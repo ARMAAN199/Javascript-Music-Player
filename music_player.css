@@ -304,6 +304,46 @@ hr {
   border-radius: 10%;
 }
 
+.seek {
+  margin-top: 10px;
+  margin-left: 1%;
+  width: 100%;
+}
+.volume_seek {
+  margin-top: 10px;
+  margin-left: 3%;
+  width: 100%;
+}
+.volume_seek input {
+  margin-left: auto;
+  height: 5px;
+  width: 90%;
+  outline: none;
+}
+.seek input[type="range"] {
+  margin-left: auto;
+  height: 5px;
+  width: 90%;
+  outline: none;
+}
+
+.controls {
+  margin-left: 50%;
+}
+.volume_controls {
+  margin-left: 40%;
+}
+
+#change {
+  height: 25px;
+}
+
+.play,
+.pause,
+#change {
+  cursor: pointer;
+}
+
 #div7_player {
   height: 70px;
   border: none;
@@ -317,4 +357,44 @@ hr {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.footer input[type="range"] {
+  -webkit-appearance: none !important;
+  background: #ff3677;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.buttons {
+  float: left;
+  margin-top: 10px;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+.buttons i {
+  font-size: 20px;
+  color: #72646f;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.buttons i.active {
+  color: #ff3677;
+}
+
+.volumes {
+  float: left;
+  width: 15%;
+  height: 100%;
+  padding: none;
+  font-family: "Raleway", sans-serif;
+}
+
+.music_player {
+  float: left;
+  border-style: solid;
+  border-color: #ec008c;
+  height: 100%;
+  width: 70%;
+  outline: none;
 }
