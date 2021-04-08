@@ -168,3 +168,54 @@ width:70%;
 .controls{
 margin-left: 35%;
 }
+.seek{
+      margin-top: 0px;
+      margin-left: 1%;
+      width: 100%;
+}
+.seek input[type="range"] {   
+      margin: 0 5px;
+      height: 5px;
+      width: 65%;
+      outline:none;
+}
+.current-time{
+    margin-left: 10px;
+}
+
+.volume_controls{
+    margin-left: 1%;
+    font-size: 14px;
+     height: 18px;
+    }
+
+.current-time, .duration{
+    font-size: 10px;
+}
+ 
+
+.volume_seek input{
+      margin-left: 25px;
+      margin-right: auto;
+      height: 5px;
+      width: 100%;
+      transform: rotate(270deg); 
+} 
+
+    .volume_seek{
+      margin-top: 10px;
+      margin-left: 3%;
+      width: 100%;
+    }     
+  
+         
+         
+         #change{
+            height:25px;
+         }
+
+         .play, .pause, #change{
+          cursor:pointer;         
+         }
+
+
