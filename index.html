@@ -86,6 +86,82 @@
 
   <div class="gap_div"></div>
 
+  <div class="artists_div">  
+  <img class="artists" onclick= "chooseartist('e_songs')" src="artist_images/ed.jpg">
+  <div class="centered">Ed Sheeren</div>    
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">  
+  <img class="artists" onclick= "chooseartist('arian_songs')" src="artist_images/ariana.jpg">
+  <div class="centered">Ariana Grande</div>
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">    
+   <img class="artists" onclick= "chooseartist('ann_songs')" src="artist_images/anne.jpg">
+  <div class="centered">Anne Marie</div>
+  </div>
+
+  <div class="gap_div"></div>
+  
+  <div class="gap_div" id="big_gap" style="width: 9%; height: 50%; float: left;"></div>
+
+  <div class="artists_div">  
+  <img class="artists" onclick= "chooseartist('camil_songs')" src="artist_images/camila.jpg">
+  <div class="centered">Camila Cabello</div>
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">  
+  <img class="artists" onclick= "chooseartist('elli_songs')" src="artist_images/ellie.jpg">
+  <div class="centered">Ellie Goulding</div>
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">    
+   <img class="artists" onclick= "chooseartist('emine_songs')" src="artist_images/eminem.jpg">
+  <div class="centered">Eminem</div>
+  </div>
+
+  <div class="gap_div"></div>
+
+  <div class="artists_div">  
+  <img class="artists" onclick= "chooseartist('mi_songs')" src="artist_images/mix.jpg">
+  <div class="centered">Mix</div>
+  </div> 
+
+  <p id="testing"> </p>
+  <p id="testing2"> </p>
+  </div>
+
+
+
+
+    <div class="seek">
+    <span class="current-time">0:0</span>      
+    <input type="range" step="1" class="seekbar" value="0" min="0" max="100" oninput="handleSeekBar()">
+            <audio id="music-element" class="music-element">
+                <source src="" type="audio/mp3">
+            </audio>
+                
+    <span class="duration"> 0:0</span>
+  </div>
+</div> 
+  <div class="volumes"> 
+    <div class="volume_controls">
+           Volume
+           </div>       
+            <div class="volume_seek">           
+            <input type="range" step="1" value="50" min="0" max="100"
+                oninput="music.volume = this.value/100">
+                </div>
+  </div>
+</div>
 
 <script src="music_collection.js"></script>
 <script src="music_player.js"> </script>
